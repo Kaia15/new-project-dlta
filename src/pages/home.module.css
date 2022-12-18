@@ -1,0 +1,67 @@
+@media (min-width: 1200px) {
+    .banner {
+        max-height: 600px;
+    }
+    .box {
+        max-height: 580px;
+    }
+    .innerbox {
+        display: flex;
+        flex-direction: row;
+        padding: 0px 7vw; 
+        height: 580px;
+    }
+    .posts {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 16px;
+        min-height: 960px;
+    }
+}
+
+@media (min-width:901px) and (max-width: 1199px) {
+    .banner {
+        max-height: 780px;
+    }
+}
+
+@media (max-width: 900px) {
+    .banner {
+        max-height: 640px;
+    }
+    .box {
+        max-height: 800px;
+    }
+}
+
+.banner {
+    padding: 0px 7vw;
+}
+
+.box {
+    background-color: lightcoral;
+    border-radius: 4px;
+}
+
+.imgbox {
+    flex: 1;
+}
+
+.imginbox {
+    width: 100%;
+    height: 90%;
+}
+
+.textbox {
+    flex: 1;
+}
+
+.posts {
+    padding: 24px 7vw;
+}
+
+.post {
+    padding: 100px 50px;
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+}
